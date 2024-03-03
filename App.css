@@ -1,0 +1,88 @@
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f9fa; /* Light gray background */
+}
+
+.search-input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #6c5ce7; /* Vivid Purple border */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.sort-options {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.sort-select {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #fd7e14; /* Orange border */
+  border-radius: 5px; /* Rounded corners */
+  background-color: #fff; /* White background */
+  color: #333; /* Dark text color */
+}
+
+.sort-select:hover {
+  background-color: #fd7e14; /* Orange background on hover */
+  color: #fff; /* White text color on hover */
+}
+
+.customer-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.customer-table th, .customer-table td {
+  padding: 12px;
+  border: 1px solid #ddd; /* Light gray border */
+}
+
+.customer-table th {
+  background-color: #007bff; /* Blue background */
+  color: #fff; /* White text color */
+  font-weight: bold;
+  text-align: left;
+}
+
+.customer-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2; /* Light gray background for even rows */
+}
+
+.customer-table tbody tr:hover {
+  background-color: #ddd; /* Darker gray background on hover */
+}
+
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination button {
+  padding: 10px 16px;
+  margin: 0 5px;
+  border: none;
+  background-color: #007bff; /* Blue background */
+  color: #fff; /* White text color */
+  cursor: pointer;
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.pagination button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.pagination button:disabled {
+  background-color: #ccc; /* Light gray for disabled button */
+  color: #666; /* Dark gray text for disabled button */
+  cursor: not-allowed; /* Not allowed cursor for disabled button */
+}
